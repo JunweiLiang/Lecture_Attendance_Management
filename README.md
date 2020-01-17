@@ -28,17 +28,52 @@ And it needs to be efficient for both the teaching assistants (TAs) and the stud
 
 ### Step 1. Quiz Creation
 
-The quiz creation interface is mobile-usable so that the TA doesn't have to bring a laptop to the class. Here are the lecture list interface and the quiz editing interface (click to see larger pictures).
+The quiz creation interface is mobile-usable so that the TA doesn't have to bring a laptop to the class. Here are the lecture list interface and the quiz editing interface (click to see larger pictures). The TA can create one or two multiple-choice questions and upload the classroom picture from a mobile browser. Note that a shoutkey is required and it would be announced by the TA after the lecture so that only students attended would know the URL for the quiz.
 
-  <!--These do not work on github markdown-->
+  <!--These do not work on github markdown. Need to crop image!-->
   <!--<div style="height:400px;overflow:hidden;position:relative;">
       <img style="display:block;position:absolute;top:0;left:50%;margin-left:-310px" src="images/lecture_list_mobile.jpg" width="300px" />
       <img style="display:block;position:absolute;top:0;left:50%;margin-left:10px" src="images/edit_form_mobile.jpg" width="300px" />
   </div>-->
+
 <div align="center">
   <img src="images/lecture_list_mobile.jpg" height="300px" />
   <img src="images/edit_form_mobile.jpg" height="300px" />
 </div>
+
+### Step 2. Taking the Quiz
+
+With the shoutkey, students will land on the following page to take the quiz and indicate where they were sitting at by clicking on the picture. *Note that here we deliberately do not ask students to draw a bounding box to make it harder to use automatic face recognition later for privacy concerns*.
+
+<div align="center">
+  <img src="images/student_page.jpg" height="500px" />
+</div>
+
+### Step 3. Grading
+
+Immediately after each lecture, the TA can see the following page to check the total submission of the quiz and where students were sitting at, indicted by the red blocks.
+
+<div align="center">
+  <img src="images/per_lecture_submission.jpg" height="500px" />
+</div>
+
+------------
+
+But as you can see, some students put the red blocks on the wall or on the cameraman. Therefore some manual verifications may be needed as shown here, where the picture history of each student can be looked through.
+
+<div align="center">
+  <img src="images/check_person.jpg" />
+</div>
+
+------------
+
+At the end of the semester, the TA can get some stats of the overall attendance as well as each individual's performance of the course.
+
+<div align="center">
+  <img src="images/stats.jpg" height="400px" />
+  <img src="images/person_accuracy.jpg" />
+</div>
+
 
 ## Installation & Usage
 Instructions for installing and using the system on your local machine can be [found here](INSTALL.md).
