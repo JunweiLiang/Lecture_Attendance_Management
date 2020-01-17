@@ -35,9 +35,9 @@ The quiz creation interface is mobile-usable so that the TA doesn't have to brin
       <img style="display:block;position:absolute;top:0;left:50%;margin-left:-310px" src="images/lecture_list_mobile.jpg" width="300px" />
       <img style="display:block;position:absolute;top:0;left:50%;margin-left:10px" src="images/edit_form_mobile.jpg" width="300px" />
   </div>-->
-<div align="center" height="400px" overflow="hidden">
-  <img src="images/lecture_list_mobile.jpg" width="300px" />
-  <img src="images/edit_form_mobile.jpg" width="300px" />
+<div align="center">
+  <img src="images/lecture_list_mobile.jpg" height="300px" />
+  <img src="images/edit_form_mobile.jpg" height="300px" />
 </div>
 
 ## Installation & Usage
