@@ -30,10 +30,10 @@ And it needs to be efficient for both the teaching assistants (TAs) and the stud
 
 The quiz creation interface is mobile-usable so that the TA doesn't have to bring a laptop to the class. Here are the lecture list interface and the quiz editing interface (click to see larger picture).
 
-  <div style="height:400px;overflow:hidden;position:relative;">
+  <!--<div style="height:400px;overflow:hidden;position:relative;">
       <img style="display:block;position:absolute;top:0;left:50%;margin-left:-310px" src="images/lecture_list_mobile.jpg" width="300px" />
       <img style="display:block;position:absolute;top:0;left:50%;margin-left:10px" src="images/edit_form_mobile.jpg" width="300px" />
-  </div>
+  </div>-->
 
 
 ## Installation & Usage
