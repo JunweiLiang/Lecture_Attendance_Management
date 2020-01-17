@@ -1,0 +1,18 @@
+Arch:
+
+	-> colcheck?k=keyword -> colcheck/index.php/CheckIn/index?k=keyword
+
+	-> colcheck/index.php/admin -> colcheck/index.php/admin/index -> login.php
+
+
+
+	controller:
+		(page controller)
+		admin  -> for super admin and normal admin to login
+		application -> the page controller for super admin and normal admin
+		checkIn -> for people to enter things
+
+		(ajax controller)
+		user -> for super admin management
+		main -> for normal admin to add things
+
