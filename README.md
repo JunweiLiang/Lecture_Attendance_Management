@@ -1,6 +1,6 @@
 # Lecture Attendance Management System
 
-This repository contains the code for a simple, efficient, mobile-usable web application of a lecture attendance management system. We have used this system within [CMU LTI](https://www.lti.cs.cmu.edu/) for a course with over a hundred students every semester since 2017.
+This repository contains the code for a simple, efficient, mobile-usable web application for lecture attendance management. We have used this system within [CMU LTI](https://www.lti.cs.cmu.edu/) for a course with over a hundred students every semester since 2017.
 
 
 ## Introduction
